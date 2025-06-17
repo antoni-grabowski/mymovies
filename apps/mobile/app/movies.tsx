@@ -9,7 +9,7 @@ export default function Movies() {
         alignItems: "center",
       }}
     >
-      <Text>Nigger</Text>
+      <Text>Movies</Text>
     </View>
   );
 }

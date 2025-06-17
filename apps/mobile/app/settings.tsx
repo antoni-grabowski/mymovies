@@ -9,7 +9,7 @@ export default function Settings() {
         alignItems: "center",
       }}
     >
-      <Text>Nigger</Text>
+      <Text>Settings</Text>
     </View>
   );
 }

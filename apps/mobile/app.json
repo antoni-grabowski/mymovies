@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "mymovies",
-    "slug": "mymovies",
+    "slug": "movie-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,9 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mymovies"
     },
     "android": {
+      "package": "com.mymovies",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -37,6 +39,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cb705fc5-4624-40c0-967b-f82d9c416f30"
+      }
+    },
+    "owner": "misha18"
   }
 }
