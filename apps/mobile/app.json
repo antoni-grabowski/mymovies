@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "mymovies",
-    "slug": "mymovies",
+    "name": "mobile",
+    "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mymovies",
+    "scheme": "mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
